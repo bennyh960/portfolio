@@ -87,7 +87,8 @@ a:hover {
   color: var(--color-white);
 }
 
-.btn {
+.btn,
+.btn2 {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -96,6 +97,11 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
+}
+
+.btn2 {
+  width: 100%;
+  text-align: center;
 }
 
 .btn:hover {

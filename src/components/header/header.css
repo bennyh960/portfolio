@@ -1,14 +1,22 @@
 header {
   height: 100vh;
+  /* width: 100vw; */
   padding-top: 3rem;
   overflow: hidden;
   /* border: red 1px solid; */
 }
 
 .header__container {
+  /* border: green 1px solid; */
   text-align: center;
   height: 100%;
   position: relative;
+  /* top: 0; */
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
 }
 
 /* =================       CTA ========================= */
@@ -39,15 +47,17 @@ header {
 
 /* ====================== Me =================== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent, transparent);
-  width: 20rem;
-  height: 30rem;
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 13rem;
+  height: 15rem;
   position: absolute;
-  left: calc(50% - 10rem);
+  top: 0;
+  right: 0;
   margin-top: 3rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 2rem 5rem;
+  /* border: 1px solid black; */
+  /* padding: 2rem 5rem; */
 }
 
 /* ===================== scroll */
@@ -74,5 +84,20 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+  .me {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    /* place-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5.5rem;
+    left: 0;
+  }
+
+  .me img {
+    width: 4rem;
   }
 }
