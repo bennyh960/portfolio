@@ -28,19 +28,18 @@ const About = () => {
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+</small>
+              <h5>Education</h5>
+              <small>Engineer & Developer</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>1 Year</small>
+              <h5>People Connection -project</h5>
+              <small>6 month</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem itaque a quas provident fugit! Ut
-            repellendus rerum inventore asperiores reiciendis ad aut neque nemo! Sit consequatur voluptatum fugiat
-            corrupti.
+            Chemical Engineer in the past and Fullstack developer at the present. Experienced in bulding people
+            connection app whiche is aim to find connection between people stored in database.
           </p>
         </div>
       </div>
