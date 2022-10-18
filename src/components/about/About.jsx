@@ -38,8 +38,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Chemical Engineer in the past and Fullstack developer at the present. Experienced in bulding people
-            connection app whiche is aim to find connection between people stored in database.
+            Chemical Engineer (B.sc) in the past and Full Stack developer at the present. Motivated with high learning
+            abilities, self-taught, and very friendly. Skilled in Front-End and Back-End technologies
           </p>
         </div>
       </div>

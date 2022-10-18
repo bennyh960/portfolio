@@ -1,7 +1,13 @@
+#experience {
+  /* border: 1px solid black; */
+  margin: 0;
+}
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  /* margin: 2rem auto; */
+  /* border: 1px solid black; */
 }
 
 .experience__container > div {
@@ -49,6 +55,9 @@
 }
 /* ==================== Media Queris (Small Devices) ============================================== */
 @media screen and (max-width: 600px) {
+  #experience {
+    height: fit-content;
+  }
   .experience__container {
     gap: 1rem;
   }

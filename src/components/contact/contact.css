@@ -68,6 +68,9 @@ textarea {
 }
 /* ==================== Media Queris (Small Devices) ============================================== */
 @media screen and (max-width: 700px) {
+  #contact {
+    height: fit-content;
+  }
   .contact__container {
     grid-template-columns: 1fr;
     width: var(--container-width-sm);
