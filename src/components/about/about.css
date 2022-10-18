@@ -28,6 +28,7 @@
 }
 
 .btn-special:hover ~ .about-image {
+  border-radius: 0 0 3% 3%;
   transform: rotate(0deg);
 }
 .about-image:hover {
