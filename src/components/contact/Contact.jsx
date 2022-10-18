@@ -40,7 +40,7 @@ const Contact = () => {
             <h4>Email</h4>
 
             <h5>Bennyh960@gmail.com</h5>
-            <a href="mailto:Bennyh960@gmail.com" target="_blank">
+            <a href="mailto:Bennyh960@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </artice>
@@ -49,7 +49,7 @@ const Contact = () => {
             <h4>Messanger </h4>
 
             <h5>Facebook</h5>
-            <a href="https://m.me/benny.hassan.7" target="_blank">
+            <a href="https://m.me/benny.hassan.7" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </artice>
@@ -58,7 +58,7 @@ const Contact = () => {
             <h4>WhatsApp</h4>
 
             <h5>+972-524874600</h5>
-            <a href="https://api.whatsapp.com/send?phone=972524874600" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=972524874600" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </artice>

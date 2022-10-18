@@ -91,14 +91,14 @@ const Portfolio = () => {
             {project.private ? (
               <div className={project.buttons.split(" ")[0]}>Private</div>
             ) : (
-              <a href={project.github} className={project.buttons.split(" ")[0]} target="_blank">
+              <a href={project.github} className={project.buttons.split(" ")[0]} target="_blank" rel="noreferrer">
                 Github
               </a>
             )}
             {project.todo ? (
               <div className={project.buttons.split(" ")[1]}>Soon</div>
             ) : (
-              <a href={project.github} className={project.buttons} target="_blank">
+              <a href={project.github} className={project.buttons} target="_blank" rel="noreferrer">
                 Live Demo
               </a>
             )}
@@ -117,145 +117,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-// carousel
-{
-  /* <div className="container ">
-        <Carousel infiniteLoop={false}>
-          <div className="portfolio__container">
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG0} alt="img 1" className="img img-project" />
-              </div>
-              <h3>MeetBach -Social Recipes App</h3>
-              <div className="project-links">
-                <div className="disabled-btn">Git private</div>
-                <a href="https://dealigence.vc/hitlists" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG1} alt="img 1" className="img img-project" />
-              </div>
-              <h3>MeetBach -Social Recipes App</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/KitchenMe" className="btn" target="_blank">
-                  Github
-                </a>
-                <a href="https://meetbachv2.herokuapp.com/" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG2} alt="img 1" className="img img-project" />
-              </div>
-              <h3>MineCraft Game</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/Minecraft-" className="btn" target="_blank">
-                  Github
-                </a>
-                <a
-                  href="https://magnificent-stroopwafel-a62e02.netlify.app/game.html"
-                  className="btn btn-primary"
-                  target="_blank"
-                >
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          </div>
-          <div className="portfolio__container">
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG3} alt="img 1" className="img img-project" />
-              </div>
-              <h3>TalkToMe - Social Dating app</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/TalkToMe-social" className="btn" target="_blank">
-                  Github
-                </a>
-                <a href="https://precious-heliotrope-1b4fcd.netlify.app/" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG4} alt="img 1" className="img img-project" />
-              </div>
-              <h3>Bank Accounts Managments</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/BANK-fullStack" className="btn" target="_blank">
-                  Github
-                </a>
-                <a href="https://bank-demo-mongoose.herokuapp.com" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG5} alt="img 1" className="img img-project" />
-              </div>
-              <h3>Dice Game</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/DiceGameHooks" className="btn" target="_blank">
-                  Github
-                </a>
-                <a href="https://elegant-biscochitos-8f3805.netlify.app/" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          </div>
-          <div className="portfolio__container">
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG6} alt="img 1" className="img img-project" />
-              </div>
-              <h3>Memory Game</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/Memory-Game-" className="btn" target="_blank">
-                  Github
-                </a>
-                <a href="https://thunderous-cascaron-1b45af.netlify.app/" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG7} alt="chat app" className="img img-project" />
-              </div>
-              <h3>Live Chat App</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/live-chat-beta" className="btn" target="_blank">
-                  Github
-                </a>
-                <a href="https://chat-app-beta-bh960.herokuapp.com/" className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={IMG8} alt="chat app" className="img img-project" />
-              </div>
-              <h3>Simple Store Demo</h3>
-              <div className="project-links">
-                <a href="https://github.com/bennyh960/Shoe-store-demo-" className="btn" target="_blank">
-                  Github
-                </a>
-                {/* <a href="https://chat-app-beta-bh960.herokuapp.com/" className="btn btn-primary" target="_blank"> */
-}
-//           <div className="disabled-btn">Demo Soon</div>
-//           {/* </a> */}
-//         </div>
-//       </article>
-//     </div>
-//   </Carousel>
-// </div> */}

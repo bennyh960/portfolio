@@ -16,7 +16,7 @@ const About = () => {
             <a href="#contact" className="btn2 btn-primary btn-special">
               Let's Talk
             </a>
-            <img src={aboutMe} alt="About image" className="img about-image" />
+            <img src={aboutMe} alt="About" className="img about-image" />
           </div>
         </div>
         <div className="about__content">
