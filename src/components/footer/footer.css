@@ -3,7 +3,10 @@ footer {
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem;
+  margin-top: 17rem;
+  /* border: 1px solid yellow; */
+  /* margin: 7rem; */
+  /* padding: 7rem; */
 }
 footer a {
   color: var(--color-bg);

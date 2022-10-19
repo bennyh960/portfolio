@@ -98,7 +98,7 @@ const Portfolio = () => {
             {project.todo ? (
               <div className={project.buttons.split(" ")[1]}>Soon</div>
             ) : (
-              <a href={project.github} className={project.buttons} target="_blank" rel="noreferrer">
+              <a href={project.demo} className={project.buttons} target="_blank" rel="noreferrer">
                 Live Demo
               </a>
             )}
