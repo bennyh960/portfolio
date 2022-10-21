@@ -9,6 +9,7 @@ import IMG5 from "../../assets/images/projects/diceGame.png";
 import IMG6 from "../../assets/images/projects/memory-game.png";
 import IMG7 from "../../assets/images/projects/chat-app.png";
 import IMG8 from "../../assets/images/projects/store.png";
+import IMG9 from "../../assets/images/projects/superStore.png";
 
 const myProjectsData = [
   {
@@ -59,6 +60,13 @@ const myProjectsData = [
     title: "Memory Game",
     github: "https://github.com/bennyh960/Memory-Game-",
     demo: "https://thunderous-cascaron-1b45af.netlify.app/",
+    buttons: "btn btn-primary",
+  },
+  {
+    image: IMG8,
+    title: "Super store",
+    github: "https://github.com/bennyh960/Store-ts-v2",
+    demo: "https://magnificent-banoffee-88a885.netlify.app/vegtables",
     buttons: "btn btn-primary",
   },
   {
