@@ -14,7 +14,7 @@ import IMG9 from "../../assets/images/projects/superStore.png";
 const myProjectsData = [
   {
     image: IMG0,
-    title: "Dealigence Hitlist - BE people connection",
+    title: "BE People Connection Assesment",
     github: "pivate",
     demo: "https://dealigence.vc/hitlists",
     buttons: "disabled-btn btn-primary",
@@ -63,10 +63,10 @@ const myProjectsData = [
     buttons: "btn btn-primary",
   },
   {
-    image: IMG8,
+    image: IMG9,
     title: "Super store",
     github: "https://github.com/bennyh960/Store-ts-v2",
-    demo: "https://magnificent-banoffee-88a885.netlify.app/vegtables",
+    demo: "https://magnificent-banoffee-88a885.netlify.app/",
     buttons: "btn btn-primary",
   },
   {

@@ -5,29 +5,37 @@ const Services = () => {
   return (
     <section id="services">
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>My Skills</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Personal</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Interaction & Layouts & Design system.</p>
+              <p>Interpersonal skills.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Icons & Typography.</p>
+              <p>Open-mindedness..</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Prototyping and testing.</p>
+              <p>self-taught.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Research.</p>
+              <p>Teamwork and Collaboration.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Analytic.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Curious.</p>
             </li>
           </ul>
         </article>
@@ -55,6 +63,10 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>Maintenance.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Data analysis.</p>
             </li>
           </ul>
         </article>
