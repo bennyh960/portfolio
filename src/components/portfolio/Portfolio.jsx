@@ -10,6 +10,7 @@ import IMG6 from "../../assets/images/projects/memory-game.png";
 import IMG7 from "../../assets/images/projects/chat-app.png";
 import IMG8 from "../../assets/images/projects/store.png";
 import IMG9 from "../../assets/images/projects/superStore.png";
+import IMG10 from "../../assets/images/projects/trivia.png";
 
 const myProjectsData = [
   {
@@ -82,6 +83,14 @@ const myProjectsData = [
     github: "https://github.com/bennyh960/Shoe-store-demo-",
     demo: "https://chat-app-beta-bh960.herokuapp.com/",
     buttons: "btn disabled-btn",
+    todo: true,
+  },
+  {
+    image: IMG10,
+    title: "Trivia app -demo version",
+    github: "https://github.com/bennyh960/Trivia-ts-react",
+    demo: "https://subtle-monstera-24e17b.netlify.app/",
+    buttons: "btn btn-primary",
     todo: true,
   },
 ];
