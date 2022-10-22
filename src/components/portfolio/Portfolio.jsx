@@ -78,19 +78,18 @@ const myProjectsData = [
     buttons: "btn btn-primary",
   },
   {
-    image: IMG8,
-    title: "Simple Store Demo",
-    github: "https://github.com/bennyh960/Shoe-store-demo-",
-    demo: "https://chat-app-beta-bh960.herokuapp.com/",
-    buttons: "btn disabled-btn",
-    todo: true,
-  },
-  {
     image: IMG10,
     title: "Trivia app -demo version",
     github: "https://github.com/bennyh960/Trivia-ts-react",
     demo: "https://subtle-monstera-24e17b.netlify.app/",
     buttons: "btn btn-primary",
+  },
+  {
+    image: IMG8,
+    title: "Simple Store Demo",
+    github: "https://github.com/bennyh960/Shoe-store-demo-",
+    demo: "https://chat-app-beta-bh960.herokuapp.com/",
+    buttons: "btn disabled-btn",
     todo: true,
   },
 ];
