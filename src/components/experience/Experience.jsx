@@ -39,13 +39,13 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            {/* <article className="experience_detailes">
+            <article className="experience_detailes">
               <BsPatchCheckFill className="experience_detailes-icons" />
               <div>
                 <h4>Type Script</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article> */}
+            </article>
           </div>
         </div>
         <div className="experience__backend">

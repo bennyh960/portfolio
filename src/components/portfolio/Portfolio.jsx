@@ -11,6 +11,7 @@ import IMG7 from "../../assets/images/projects/chat-app.png";
 import IMG8 from "../../assets/images/projects/store.png";
 import IMG9 from "../../assets/images/projects/superStore.png";
 import IMG10 from "../../assets/images/projects/trivia.png";
+import IMG11 from "../../assets/images/projects/pokemon.png";
 
 const myProjectsData = [
   {
@@ -40,6 +41,13 @@ const myProjectsData = [
     title: "TalkToMe - Social Dating app",
     github: "https://github.com/bennyh960/TalkToMe-social",
     demo: "https://precious-heliotrope-1b4fcd.netlify.app/",
+    buttons: "btn btn-primary",
+  },
+  {
+    image: IMG11,
+    title: "Pokemon game - Python",
+    github: "https://github.com/bennyh960/pokemonPygame",
+    demo: "https://www.youtube.com/watch?v=q7dfMQq5RXg&ab_channel=bennyhassan",
     buttons: "btn btn-primary",
   },
   {
