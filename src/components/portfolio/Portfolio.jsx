@@ -19,7 +19,7 @@ const myProjectsData = [
     title: "BE People Connection Assesment",
     github: "pivate",
     demo: "https://dealigence.vc/hitlists",
-    buttons: "disabled-btn btn-primary",
+    buttons: "disabled-btn",
     private: true,
   },
   {
@@ -28,10 +28,18 @@ const myProjectsData = [
     github: "https://github.com/bennyh960/KitchenMe",
     demo: "https://meetbachv2.herokuapp.com/",
     buttons: "btn btn-primary",
+    login: "user0@c.com 123",
   },
+  // {
+  //   image: ,
+  //   title: "Tripper (hackthon) - Finding holydays",
+  //   github: "https://github.com/MichaelVez/hackthon_tripper",
+  //   demo: "",
+  //   buttons: "btn btn-primary",
+  // },
   {
     image: IMG2,
-    title: "MineCraft Game",
+    title: "MineCraft: Building World game",
     github: "https://github.com/bennyh960/Minecraft-",
     demo: "https://magnificent-stroopwafel-a62e02.netlify.app/game.html",
     buttons: "btn btn-primary",
@@ -42,10 +50,11 @@ const myProjectsData = [
     github: "https://github.com/bennyh960/TalkToMe-social",
     demo: "https://precious-heliotrope-1b4fcd.netlify.app/",
     buttons: "btn btn-primary",
+    login: "user3@c.com 123",
   },
   {
     image: IMG11,
-    title: "Pokemon game - Python",
+    title: "Pokemon game - My first coding with python",
     github: "https://github.com/bennyh960/pokemonPygame",
     demo: "https://www.youtube.com/watch?v=q7dfMQq5RXg&ab_channel=bennyhassan",
     buttons: "btn btn-primary",
@@ -110,10 +119,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={project.image} alt="img 1" className="img img-project" />
           </div>
-          <h3>{project.title}</h3>
+          <h4 style={{ textAlign: "center", margin: "1rem 0" }}>{project.title}</h4>
           <div className="project-links">
             {project.private ? (
-              <div className={project.buttons.split(" ")[0]}>Private</div>
+              <div className={project.buttons.split(" ")[1]}>Private</div>
             ) : (
               <a href={project.github} className={project.buttons.split(" ")[0]} target="_blank" rel="noreferrer">
                 Github
@@ -123,6 +132,7 @@ const Portfolio = () => {
               <div className={project.buttons.split(" ")[1]}>Soon</div>
             ) : (
               <a href={project.demo} className={project.buttons} target="_blank" rel="noreferrer">
+                {/* {project.login ? project.login : "Live Demo"} */}
                 Live Demo
               </a>
             )}
@@ -133,8 +143,9 @@ const Portfolio = () => {
   };
   return (
     <section id="portfolio">
-      <h5>My recent Work</h5>
+      <h5>My recent Work </h5>
       <h2>Portfolio</h2>
+      <div className="disclaimer">* Password strength has been weakened for easy registration</div>
       <div className="container portfolio__container">{getData()}</div>
     </section>
   );

@@ -56,7 +56,9 @@
 /* ==================== Media Queris (Small Devices) ============================================== */
 @media screen and (max-width: 600px) {
   #experience {
-    height: fit-content;
+    /* min-height: fit-content; */
+    /* margin: 2rem 0; */
+    /* border: 5px solid yellow; */
   }
   .experience__container {
     gap: 1rem;
