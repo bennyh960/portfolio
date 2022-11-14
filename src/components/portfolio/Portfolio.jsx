@@ -12,6 +12,7 @@ import IMG8 from "../../assets/images/projects/store.png";
 import IMG9 from "../../assets/images/projects/superStore.png";
 import IMG10 from "../../assets/images/projects/trivia.png";
 import IMG11 from "../../assets/images/projects/pokemon.png";
+import IMG12 from "../../assets/images/projects/imdb.png";
 
 const myProjectsData = [
   {
@@ -37,13 +38,7 @@ const myProjectsData = [
   //   demo: "",
   //   buttons: "btn btn-primary",
   // },
-  {
-    image: IMG2,
-    title: "MineCraft: Building World game",
-    github: "https://github.com/bennyh960/Minecraft-",
-    demo: "https://magnificent-stroopwafel-a62e02.netlify.app/game.html",
-    buttons: "btn btn-primary",
-  },
+
   {
     image: IMG3,
     title: "TalkToMe - Social Dating app",
@@ -59,20 +54,15 @@ const myProjectsData = [
     demo: "https://www.youtube.com/watch?v=q7dfMQq5RXg&ab_channel=bennyhassan",
     buttons: "btn btn-primary",
   },
+
   {
-    image: IMG4,
-    title: "Bank Accounts Managments",
-    github: "https://github.com/bennyh960/BANK-fullStack",
-    demo: "https://bank-demo-mongoose.herokuapp.comusers",
+    image: IMG12,
+    title: "IMDB demo app - Typescript",
+    github: "https://github.com/bennyh960/IMDB-demo-app",
+    demo: "https://spectacular-puffpuff-c59f7d.netlify.app/",
     buttons: "btn btn-primary",
   },
-  {
-    image: IMG5,
-    title: "Dice Game",
-    github: "https://github.com/bennyh960/DiceGameHooks",
-    demo: "https://elegant-biscochitos-8f3805.netlify.app/",
-    buttons: "btn btn-primary",
-  },
+
   {
     image: IMG6,
     title: "Memory Game",
@@ -96,16 +86,37 @@ const myProjectsData = [
   },
   {
     image: IMG10,
-    title: "Trivia app -demo version",
+    title: "Trivia app - TypeScript version",
     github: "https://github.com/bennyh960/Trivia-ts-react",
     demo: "https://subtle-monstera-24e17b.netlify.app/",
+    buttons: "btn btn-primary",
+  },
+  {
+    image: IMG4,
+    title: "Bank Accounts Managments",
+    github: "https://github.com/bennyh960/BANK-fullStack",
+    demo: "https://bank-demo-mongoose.herokuapp.comusers",
+    buttons: "btn btn-primary",
+  },
+  {
+    image: IMG2,
+    title: "MineCraft: vanila JS",
+    github: "https://github.com/bennyh960/Minecraft-",
+    demo: "https://magnificent-stroopwafel-a62e02.netlify.app/game.html",
+    buttons: "btn btn-primary",
+  },
+  {
+    image: IMG5,
+    title: "Dice Game",
+    github: "https://github.com/bennyh960/DiceGameHooks",
+    demo: "https://elegant-biscochitos-8f3805.netlify.app/",
     buttons: "btn btn-primary",
   },
   {
     image: IMG8,
     title: "Simple Store Demo",
     github: "https://github.com/bennyh960/Shoe-store-demo-",
-    demo: "https://chat-app-beta-bh960.herokuapp.com/",
+    demo: "https://chat-app-beta-bh960.herokuapp.com/", //TODO deploy site and change link
     buttons: "btn disabled-btn",
     todo: true,
   },
