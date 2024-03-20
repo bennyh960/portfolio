@@ -24,7 +24,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 Year</small>
+              <small>2 Years</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -33,13 +33,19 @@ const About = () => {
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>People Connection -project</h5>
-              <small>6 month</small>
+              <h5>Owner Of Online Store</h5>
+              <small>1 Year</small>
             </article>
           </div>
           <p>
             Chemical Engineer (B.sc) in the past and Full Stack developer at the present. Motivated with high learning
-            abilities, self-taught, and very friendly. Skilled in Front-End and Back-End technologies
+            abilities, self-taught, and very friendly. Skilled in Front-End , Back-End technologies , sql and nosql DB
+            and Cloude services at AWS and Azure.
+          </p>
+          <p>
+            Owner Of Online Store which perform scrapping , blobs ETL using various of tech , managing own UI library
+            (The site is deployed to the net for me only, due to its still under development and due to copyright issues
+            im not publishing it here).{" "}
           </p>
         </div>
       </div>

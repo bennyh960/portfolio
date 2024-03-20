@@ -154,9 +154,17 @@ const Portfolio = () => {
   };
   return (
     <section id="portfolio">
-      <h5>My recent Work </h5>
+      <h5>My first Works</h5>
       <h2>Portfolio</h2>
-      <div className="disclaimer">* Password strength has been weakened for easy registration</div>
+      <div className="disclaimer">* TODO : I will publish here my online store soon as i solved copyright issues</div>
+      <div className="disclaimer">
+        * Unfortunately I dont have time and extra money to deploy the real projects , I find it cute to publish here my
+        first projects{" "}
+      </div>
+      <div className="disclaimer">
+        * Live Demo of projects that includes BE and DB removed from list due to payments of hosting , I can open a
+        tunnel with ngrok per demand{" "}
+      </div>
       <div className="container portfolio__container">{getData()}</div>
     </section>
   );

@@ -35,7 +35,7 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <artice className="contact__option">
+          <article className="contact__option">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
 
@@ -43,8 +43,8 @@ const Contact = () => {
             <a href="mailto:Bennyh960@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
-          </artice>
-          <artice className="contact__option">
+          </article>
+          <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messanger </h4>
 
@@ -52,8 +52,8 @@ const Contact = () => {
             <a href="https://m.me/benny.hassan.7" target="_blank" rel="noreferrer">
               Send a message
             </a>
-          </artice>
-          <artice className="contact__option">
+          </article>
+          <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
 
@@ -61,7 +61,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=972524874600" target="_blank" rel="noreferrer">
               Send a message
             </a>
-          </artice>
+          </article>
         </div>
         {/* end */}
         <form ref={form} onSubmit={sendEmail} className="form-class">
